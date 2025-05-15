@@ -1,0 +1,6 @@
+import uuid
+
+class AppClient: ...
+client = AppClient()
+def get_name(user_id: uuid.UUID) -> str: ...
+client.name = get_name("123")

@@ -1,0 +1,6 @@
+# .pre-commit-config.yaml
+- repo: https://github.com/pre-commit/mirrors-pyright
+  rev: v1.1.400
+  hooks:
+    - id: pyright
+      args: ["--python-version", "3.13"]

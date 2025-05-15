@@ -1,0 +1,6 @@
+# .pre-commit-config.yaml
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.4.4
+  hooks:
+    - id: ruff
+      args: ["--select", "UP", "--fix-only"]
